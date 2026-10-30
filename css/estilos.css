@@ -1,0 +1,286 @@
+/* RESET CSS*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+}
+
+
+
+
+
+/*Mi CSS*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contenedor{
+    width: 95%;
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding-bottom: 20px;
+}
+
+header{
+    padding-bottom: 100px;
+}
+header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(240, 93, 80);
+    text-align: center;
+    padding: 20px;
+    font-size:xx-large;
+}
+
+header h1:hover{
+    color: rgba(240, 93, 80, 0.5);
+}
+
+nav{
+    text-align: center;
+    line-height: 1.5;
+}
+nav a{
+    color: rgb(0,0,25);
+}
+nav a:hover{
+    color: rgba(0, 0, 25, 0.5);
+}
+
+.actual{
+    font-weight: 700;
+    font-style: italic;
+}
+
+main{
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 25);
+
+}
+
+main li {
+    color: rgba(0, 0, 25, 0.5);
+}
+
+article a {
+    color: rgb(240, 93, 80);
+}
+
+article a:hover{
+    color: rgba(240, 93, 80, 0.5);
+}
+
+
+body > footer {
+    background-color: rgb(0 , 0, 25);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: center;
+}
+
+body > footer p{
+    margin-bottom: 15px;
+}
+
+body > footer a {
+    color: rgb(255, 255, 255);
+}
+
+body > footer a:hover{
+    color: rgb(240, 93, 80);
+}
+
+section h2{
+   
+    font-size: 1.25rem;  /* crece el doble respecto a la raiz*/
+    margin-bottom: 15px;
+}
+
+section > h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+section h3{
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+section p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    max-width: 950px;
+   
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+}
+
+figure img{
+    align-self: center;
+    margin: 25px;
+    width: 100%;
+}
+
+figure iframe{
+    align-self: center;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+}
+
+figcaption{
+    
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-small;
+    margin-bottom: 15px;
+}
+
+.licencia{
+    color: rgb(240, 93, 80);
+}
+
+.resum{
+    font-size: medium;
+    font-weight: bold;
+    line-height: 1.8;
+    max-width: 610px;
+    
+}
+
+.primp{
+    font-size: medium;
+    line-height: 1.8;
+    max-width: 610px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.autor{
+    text-align: center;
+    font-size: large;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.fecha-autor{
+    display: block;
+    text-align: center;
+    font-size: x-small;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+cite{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+blockquote p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 800px;
+}
+
+blockquote footer{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: small;
+}
+
+hgroup h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+hgroup > p{
+    text-align: center;
+    font-size: 10px;
+}
+
+.listado{
+    width: 300px;
+    margin: 25px auto;
+}
+
+.listado > li{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  
+}
+
+.listado > li > ul {
+    flex-basis: 100%;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+
+.listado img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+ul.listado a{
+    color: rgb(240, 93, 80);
+}
+
+ul.listado a:hover{
+    color: rgba(240, 93, 80, 0.5);
+}
+
+.consulta{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.consulta a {
+    color: rgb(240, 93, 80);
+}
