@@ -259,6 +259,7 @@ hgroup > p{
     flex-basis: 100%;
     margin-left: 40px;
     margin-top: 5px;
+    list-style-type: square;
 }
 
 
@@ -267,8 +268,20 @@ hgroup > p{
     margin-right: 5px;
 }
 
+.listado time{
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.listado > li  {
+    font-weight: bold;
+
+}
+
 ul.listado a{
     color: rgb(240, 93, 80);
+    font-weight: normal;
 }
 
 ul.listado a:hover{
@@ -283,3 +296,28 @@ ul.listado a:hover{
 .consulta a {
     color: rgb(240, 93, 80);
 }
+
+q{
+    quotes: "«" "»";
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+dt{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: rgb(240, 93, 80) ;
+}
+
+dd{
+    margin-left: 50px;
+    
+}
+
+dd time{
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(0, 0, 25, 0.5);
+}
+
